@@ -11,6 +11,7 @@ namespace BBoarifeladat1
         private int _pageCount;
         public int count =0;
         public bool isAvalable = true;
+        public int BookCount { get { return count; } }
         public string Title { get; set; }
         public string Author { get; set; }
         
@@ -72,6 +73,7 @@ namespace BBoarifeladat1
         {
             isAvalable = true;
         }
+        
 
 
 
