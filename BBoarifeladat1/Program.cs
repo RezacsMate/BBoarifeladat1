@@ -32,6 +32,7 @@ namespace BBoarifeladat1
             book3.Borrow();
             library.AvailableBooks();
             Console.WriteLine("-------------");
+            Librarian librarian = new Librarian(library, "katharin");
 
         }
     }
